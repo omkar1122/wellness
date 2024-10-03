@@ -1,0 +1,97 @@
+.navbar {
+  color: var(--paragraph-color) !important;
+}
+.login-btn {
+  border-radius: 10px;
+  width: 75px !important;
+  padding: 5px !important;
+  height: 28px !important;
+  padding-top: 0 !important;
+}
+.login-btn:hover {
+  background-color: var(--main-color) !important;
+}
+.logo-text {
+  color: var(--main-color);
+  font-size: var(--header1-size) !important;
+  font-weight: 700;
+}
+.logo-img {
+  width: 27px;
+  height: 27px;
+}
+.nav-collapse {
+  /* margin-left: 50%; */
+  /* line-height: 40px; */
+}
+.navs {
+  text-decoration: none ;
+  color: var(--paragraph-color) ;
+  font-size: var( --header2-size) ;
+}
+.active {
+  color: var(--main-color) ;
+  font-weight: 600;
+}
+
+.user-arrow {
+  cursor: pointer;
+}
+
+.avatar-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  border: none;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.dropdown-menu {
+  left: unset !important;
+  right: 0 !important;
+  overflow: hidden !important;
+}
+.dropdown-icon {
+  width: 30px;
+  height: 30px;
+}
+.dropdown-text {
+  margin-bottom: 0;
+}
+.dropdown-menu.show {
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.dropdown-item:hover {
+  background-color: unset !important;
+}
+.dropdown-item:focus-visible {
+  outline: none;
+}
+.dropdown-item:active {
+  background-color: unset !important;
+  color: unset !important;
+}
+.dropdown-list-item:hover {
+  background-color: #DDD;
+}
+.lang-btn {
+  outline: none;
+  border: none;
+  padding: 5px 8px;
+  color: white;
+  border-radius: 8px;
+}
+.lang-en-btn {
+  background-color: rgb(192, 34, 66);
+  font-family: "Geologica", sans-serif;
+}
+.lang-ar-btn {
+  background-color: darkslategrey;
+  
+}
